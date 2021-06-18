@@ -1,0 +1,35 @@
+@media (max-width:740px) {
+    #nav{
+        display: block;
+    } 
+    #nav >li{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    /* #content .member-list .image-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-img{
+        width: 60%;
+    }  */
+    #content .member-item{
+        width:100%;
+        margin-top: 30px;
+    }
+    .place-item{
+        width: 100%;
+        margin-top:16px;
+    }
+    .col-half {
+        width: 100%;
+    }
+}
